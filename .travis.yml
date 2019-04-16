@@ -1,0 +1,11 @@
+language: python
+python:
+  - "2.7"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+  - "3.7-dev"
+install:
+  - pip install capstone filebytes>=0.9.18
+script:
+  - python test.py
